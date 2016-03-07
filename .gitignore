@@ -1,4 +1,4 @@
 *.class
 
 target
-test-automation/.idea/libraries
+test-automation/.idea/libraries/**
