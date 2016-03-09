@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import static org.junit.Assert.*;
 
 public class commonSteps {
 
@@ -32,6 +33,7 @@ public class commonSteps {
         @Then("this other thing happens")
         public void testAnotherOneThen(){
             int test = 4;
-            assert test == 5;
+            assertEquals(5, test);
         }
+
 }
